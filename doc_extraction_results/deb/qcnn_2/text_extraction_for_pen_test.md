@@ -1,45 +1,41 @@
-Redis as a document database quick start guide | Docs# Develop with Redis 
+| Develop with Redis |
+| --- |
+| Quick starts |
+| Data structure store |
+| Document database |
+| Vector database |
+| RAG with Redis |
+| Redis in AI |
+| FAQ |
+| Understand data types |
+| Interact with data |
+| Use Redis |
+| Reference |
+| Libraries and tools |
+| Commands |
 
-## Quick starts 
+Docs → Develop with Redis → Quick starts → Redis as a document database quick start guide
 
-Data structure store Document database Vector database RAG with Redis Redis in AI FAQ 
+## Redis as a document database quick start guide
 
-## Connect 
+Understand how to use Redis as a document database
 
-## Understand data types 
+This quick start guide shows you how to:
 
-## Interact with data 
+1. Create a secondary index
 
-Use Redis 
+2. Add JSON documents
 
-# Reference 
+3. Search and query your data
 
-## Libraries and tools 
+The examples in this article refer to a simple bicycle inventory that contains JSON documents with the following structure:
 
-## Redis products 
+{
 
-## Commands 
+"brand": "brand name", "condition": "new | used | refurbished", "description": "description", "model": "model", "price": 0 }
 
-Docs → Develop with Redis → Quick starts → Redis as a document database quick start guide 
+Setup
 
-Redis as a document database quick start guide 
+The easiest way to get started with Redis Stack is to use Redis Cloud:
 
-Understand how to use Redis as a document database 
-
-This quick start guide shows you how to: 
-
-* 1. Create a secondary index
-* 2. Add JSON documents
-* 3. Search and query your data
-
-The examples in this article refer to a simple bicycle inventory that contains JSON documents with the following structure: 
-
-{ } 
-
-# Setup 
-
-"brand": "brand name", "condition": "new | used | refurbished", "description": "description", "model": "model", "price": 0 
-
-The easiest way to get started with Redis Stack is to use Redis Cloud: 
-
-* 1. Create a free account.
+1. Create a free account.
